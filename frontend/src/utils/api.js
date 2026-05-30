@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL:'https://edtech-lms-app.vercel.app/api',
+  baseURL: 'https://edtech-lms-management-system.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
